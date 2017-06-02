@@ -1400,8 +1400,15 @@ f8d57c - yellow */
 
 /* ----- /end of about-us */
 
+
+
+
 /* start of media queries -----  */
+
 @media (max-width:991px) {
+
+  /* -- navbar section -- */
+
   .navbar-header {
     float: none;
   }
@@ -1456,9 +1463,99 @@ f8d57c - yellow */
     padding-bottom: 8px;
   }
 
+
+
+  /* -- features section -- */
+
+  .feature-header-left,
+  .feature-header-right,
+  .feature-caption-left,
+  .feature-caption-right {
+    text-align: center;
+  }
+
+
+
+  /* -- LINE:: download-photos -- */
+
+  .btn-dl-photos {
+    margin-top: 10px;
+  }
+
+
+
+  /* -- featured services -- */
+
+  .btn-services {
+    padding: 10px;
+  }
+
+  .services-featured-caption {
+    margin-bottom: 20px;
+  }
+
+  .item.active:last-child > div > .car-head {
+    font-size: 1.1em;
+  }
+
+
+/* --- /end of 992px */
+
+@media (max-width: 425px) {
+
+  .item.active:last-child > div > .car-head {
+    font-size: .90em;
+  }
+
+  .item.active:nth-child(2) > div > .car-head {
+    font-size: 1em;
+  }
+
+  .item.active:nth-child(1) > div > .car-head {
+    margin-top: 20px;
+    font-size: 1em;
+  }
+
+  .dp-wrapper {
+    display: block;
+  }
+
+  .btn-section {
+    margin-top: 10px;
+  }
+
+  #banner {
+    background-image: url(.././images/fb-banner.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 15% 100%;
+    width: 100%;
+    height: 100vh;
+    margin-top: 70px;
+  }
+
+  .nav-btn {
+    margin-left: 10px;
+  }
+
+  #gallery > .container-fluid > .nav-tabs > li > a{
+    padding-left: 5px;
+    padding-right: 5px;
 }
 
-/* ----- /end of media queries */
+  #about-us > .container > .row {
+    margin-bottom: 30px;
+  }
+
+  #footer > .container > .row > .col-lg-4 > p {
+    margin-bottom: 20px;
+}
+
+} /* /end of max-width: 425px --- */
+
+
+
+/* /end of media queries -----  */
 
 
 .bounce {
