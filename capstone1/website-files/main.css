@@ -1553,7 +1553,37 @@ f8d57c - yellow */
 
 } /* /end of max-width: 425px --- */
 
+@media (max-width: 375px) {
 
+.item.active:nth-child(2) > div > .car-head {
+  margin-top: 20px;
+  font-size: .85em;
+}
+
+.item.active:last-child > div > .car-head {
+  font-size: 1.7vh;
+}
+
+.item.active:last-child > div > p {
+  font-size: 2vh;
+}
+
+
+.item.active:nth-child(2) > div > p {
+  margin-top: 20px;
+  font-size: .9em;
+}
+
+.copy-wrapper {
+  padding: 15px 0;
+  font-size: 12px;
+}
+
+#footer > .container > .row > .col-lg-2 > text {
+    font-size: 10px;
+}
+
+}
 
 /* /end of media queries -----  */
 
