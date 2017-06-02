@@ -1309,7 +1309,7 @@ f8d57c - yellow */
 
 #gallery > .container-fluid > a > img {
   margin-top: 30px;
-  width: 350px;
+  max-width: 350px;
 }
 
 .col-lg-4 > figure > a > img {
