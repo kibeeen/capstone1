@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <title>Bootstrap 101 Template</title>
+
+    <!-- Bootstrap -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="hover.css">
+
+
+    <style>
+
+      @font-face {
+        font-family: Museo700;
+        src: url(fonts/MuseoSans700.otf);
+}
+
+      .main-title {
+        display: inline;
+        font-family: 'olivier';
+        font-size: 2.25em;
+        text-transform: lowercase;
+        margin-left: 15px;
+      }
+
+      .navbar-brand {
+        padding: 30px 0;
+        height: 70px;
+      }
+
+      .navbar-inverse .navbar-brand {
+        color: #ffffff;
+      }
+
+      .navbar-inverse .navbar-brand:focus, 
+      .navbar-inverse .navbar-brand:hover {
+        color: orange;
+
+      }
+
+      .navbar {
+        border-radius: 0;
+        border-width: 0;
+      }
+
+      .navbar-nav {
+        padding: 10px 0;
+        min-height: 70px;
+        font-family: Museo700;
+        text-transform: uppercase;
+      }
+
+      .navbar-inverse .navbar-nav > .active > a {
+        color: #fff;
+        background-color: transparent;
+      }
+
+      .navbar-inverse .navbar-nav > li > a {
+        color: #fff;
+      }
+      .navbar-inverse .navbar-nav > li > a:hover,
+      .navbar-inverse .navbar-nav > li > a:active, 
+      .navbar-inverse .navbar-nav > li > a:focus {
+        color: orange;
+      }
+
+      .navbar-inverse .navbar-nav > .open > a, 
+      .navbar-inverse .navbar-nav > .open > a:focus, 
+      .navbar-inverse .navbar-nav > .open > a:hover {
+        color: orange;
+        background-color: rgba(255, 255, 255, 0);
+      }
+
+
+      .navbar-inverse .navbar-nav > .open > a:focus, {
+        background-color: rgba(255, 255, 255, 0);
+      }
+
+      .navbar-inverse .navbar-nav .open .dropdown-menu > li > a {
+        color: #fff;
+      }
+
+      .navbar-inverse .navbar-nav .open .dropdown-menu > li > a:focus, 
+      .navbar-inverse .navbar-nav .open .dropdown-menu > li > a:hover {
+        color: orange;
+        background-color: rgba(255, 255, 255, 0);
+      }
+
+      .navbar-inverse .navbar-nav .open .dropdown-menu .divider {
+        background-color: #444;
+      }
+
+      .navbar-nav > li > .dropdown-menu {
+        background-color: #222
+
+      }
+
+      .dropdown-menu {
+        border: 1px solid #444;
+      }
+
+      .dropdown-menu .divider {
+          height: 1px;
+          margin: 9px 0;
+          overflow: hidden;
+          background-color: #ffffff;
+      }
+
+
+    </style>
+      
+
+
+      <nav class="navbar navbar-inverse">
+
+          <div class="container">
+
+            <div class="navbar-header">
+
+              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span> 
+              </button> <!-- /burger icon -->
+
+              <a class="navbar-brand hvr-buzz-out" href="#">
+                <span class="main-title">fotobomber</span>
+              </a>
+
+            </div>
+
+            <div class="collapse navbar-collapse" id="myNavbar"> <!-- this collapses the ul li elements -->
+
+              <ul class="nav navbar-nav navbar-right">
+                <li><a href="#about-us">About Us</a></li>
+
+                 <li>
+                    <a class="dropdown-toggle" data-toggle="dropdown" href="#">Services
+                       <span class="caret"></span>
+                    </a>
+
+                    <ul class="dropdown-menu">
+
+                        <li><a href="#services">Regular Style Package</a></li>
+                        <li class="divider"></li>
+                        <li><a href="#services">Strips Style Package</a></li>
+                        <li class="divider"></li>
+                        <li><a href="#services">Polaroid Style Package</a></li>
+                        <li class="divider"></li>
+                        <li><a href="#services">Magnetic Style Package</a></li>
+                        <li class="divider"></li>
+                        <li><a href="#services">Hashtag Printing</a></li>
+                        <li class="divider"></li>
+                        <li><a href="#services">GIF Booth</a></li>
+
+                    </ul> <!-- /dropdown-menu -->
+
+                </li>
+
+                <li><a href="#gallery">Event Photos</a></li>
+                <li><a href="#contact-us">Contact</a></li>
+                <li><a href="#blog">Blog</a></li>
+                <li><a href="#faq">FAQ</a></li>
+                <li><a href="#book-online">Book Online</a></li>
+              </ul>
+
+            </div> <!-- /collapse -->
+
+          </div> <!-- /container -->
+
+      </nav>
+
+
+
+
+
+
+
+
+
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+  </head>
+  <body>
+
+
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="js/bootstrap.min.js"></script>
+  </body>
+</html>
